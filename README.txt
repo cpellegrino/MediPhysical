@@ -1,7 +1,5 @@
-# MediPhysical
-Project in Python
+Author: Chris Pellegrino
 
-Student: Chris Pellegrino
 Instructions: I did not use any third party modules. You should be able to run the main.py file. To see all the features, you need to input features of an overweight person or an underweight person (height, weight), in addition to a normal weight person. There are different outcomes for all of them.
 Example to see overweight youth (<21):
 Username: x
@@ -29,5 +27,4 @@ user defined class: in user_class.py, imported into main.py at the top
 1 public method that takes arguments, returns values, and used: weight_status_category(self, bmi) in user_class.py
 init() method that takes at least 1 argument: def __init__(self, username = str(), age = int(), current_weight = int(), goal_weight = int(), height = int(), sex = str()): in user_class.py
 repr() method: function in user_class.py at bottom, defined and called in main.py
-unit test(s) using assert statement: assert float(user.get_goal_weight()) > 0.0 in main.py. Also one for username if you use "Chris". 
-
+unit test(s) using assert statement: assert float(user.get_goal_weight()) > 0.0 in main.py. Also one for username if you use "Chris".
